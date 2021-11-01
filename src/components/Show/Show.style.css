@@ -1,0 +1,50 @@
+:root {
+  --border-radius: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.show {
+  margin: auto;
+  width: 100%;
+  border-radius: var(--border-radius);
+  position: relative;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.show:hover {
+  transform: scale(1.04);
+}
+/* .show__imageContainer {
+  height: 100%;
+  position: relative;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+} */
+.show__image {
+  width: 100%;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+.show__rating {
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.25rem;
+  border-top-right-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: small;
+  color: rgb(248, 68, 100);
+}
+.show__rating span {
+  margin-left: 0.25rem;
+}
+.show__details {
+  padding: 0.5rem 1rem;
+}
+.show__name {
+  font-size: large;
+  font-weight: 600;
+}
