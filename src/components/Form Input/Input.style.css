@@ -1,0 +1,17 @@
+.input {
+  padding: 0.5rem 0;
+}
+.input label {
+  display: block;
+  font-size: medium;
+}
+.input input {
+  outline: none !important;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  width: 100%;
+  padding: 0.5rem 0;
+}
+.input input:focus {
+  border-color: rgba(248, 68, 100, 1);
+}

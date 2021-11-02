@@ -38,10 +38,11 @@ const ShowDetails = () => {
               <Tag tag={show.language} />
               <Tag tag={show.type} />
             </div>
-            <Link to={`/book/${id}`}>
+
+            <Link to={`/book-show/${id}`}>
               <button
                 className={`showDetails__bookButton ${
-                  show.status === "Running" ? "active" : "inactive"
+                  show.status === "Running" ? "--active" : "--inactive"
                 }`}
                 disabled={show.status !== "Running"}
               >

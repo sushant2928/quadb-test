@@ -1,5 +1,45 @@
 .bookShow {
-  background-color: black;
-  width: 100vw;
-  height: 100vh;
+  padding: 1rem;
+}
+.bookShow__heading {
+  text-align: center;
+  width: 100%;
+}
+.bookShow .bookShow__form {
+  width: 100%;
+  margin: auto;
+  box-shadow: 5px 5px 10px gray;
+  padding: 1.5rem;
+}
+@media (min-width: 768px) {
+  .bookShow .bookShow__form {
+    width: 80%;
+  }
+}
+@media (min-width: 1024px) {
+  .bookShow .bookShow__form {
+    width: 50%;
+  }
+}
+@media (min-width: 1280px) {
+  .bookShow .bookShow__form {
+    width: 40%;
+  }
+}
+.bookShow__button,
+.bookShow__link {
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px gray;
+  background-color: rgba(248, 68, 100, 1);
+}
+.bookShow__label {
+  display: block;
+  font-size: medium;
+}
+.bookShow__select {
+  padding: 0.25rem 0.5rem;
 }

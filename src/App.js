@@ -17,7 +17,7 @@ function App() {
             <Route path="/:id" exact>
               <ShowDetails />
             </Route>
-            <Route path="book/:id" exact>
+            <Route path="/book-show/:id">
               <BookShow />
             </Route>
           </ShowsProvider>

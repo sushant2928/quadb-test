@@ -30,10 +30,10 @@
   cursor: pointer;
   box-shadow: 2px 2px 8px gray;
 }
-.showDetails__bookButton.active {
+.showDetails__bookButton.--active {
   background-color: rgba(248, 68, 100, 1);
 }
-.showDetails__bookButton.inactive {
+.showDetails__bookButton.--inactive {
   background-color: rgba(248, 68, 100, 0.5);
   cursor: not-allowed;
 }

@@ -4,7 +4,12 @@ import { ShowsContext } from "../../Context/ShowsContext";
 import "./Shows.style.css";
 const Shows = () => {
   const [shows] = useContext(ShowsContext);
-
+  useEffect(() => {
+    const user = localStorage.getItem("user");
+    if (user) {
+      alert(`This Data is from local storage:  ${user}`);
+    }
+  }, []);
   return (
     <div className="showsList">
       {shows.map(({ show }) => (
