@@ -1,7 +1,12 @@
+.showsPage {
+  padding: 1rem;
+}
+.showsPage > h2 {
+  margin-bottom: 1rem;
+}
 .showsList {
   display: grid;
   grid-gap: 1.5rem;
-  padding: 1rem;
   grid-template-columns: 1fr;
   max-width: 100vw;
 }
